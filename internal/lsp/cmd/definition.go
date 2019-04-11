@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	guru "golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/lsp/protocol"
+	"golang.org/x/tools/span"
 	"golang.org/x/tools/internal/tool"
 )
 

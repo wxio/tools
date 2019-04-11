@@ -20,10 +20,10 @@ import (
 
 	"golang.org/x/tools/go/packages/packagestest"
 	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/lsp/protocol"
 	"golang.org/x/tools/internal/lsp/source"
 	"golang.org/x/tools/internal/lsp/xlog"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // TODO(rstambler): Remove this once Go 1.12 is released as we end support for

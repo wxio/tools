@@ -21,10 +21,10 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"golang.org/x/tools/jsonrpc2"
 	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/lsp/protocol"
+	"golang.org/x/tools/span"
 	"golang.org/x/tools/internal/tool"
 )
 

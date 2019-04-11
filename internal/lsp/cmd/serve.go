@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"golang.org/x/tools/jsonrpc2"
 	"golang.org/x/tools/internal/lsp"
 	"golang.org/x/tools/internal/tool"
 )

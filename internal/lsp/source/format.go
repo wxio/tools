@@ -16,7 +16,7 @@ import (
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/imports"
 	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // Format formats a file with a given range.

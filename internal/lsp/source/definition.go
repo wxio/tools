@@ -12,7 +12,7 @@ import (
 	"go/types"
 
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // IdentifierInfo holds information about an identifier in Go source.

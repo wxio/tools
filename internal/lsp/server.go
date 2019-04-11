@@ -18,12 +18,12 @@ import (
 	"sync"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"golang.org/x/tools/jsonrpc2"
 	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/lsp/protocol"
 	"golang.org/x/tools/internal/lsp/source"
 	"golang.org/x/tools/internal/lsp/xlog"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // NewClientServer

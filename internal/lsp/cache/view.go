@@ -14,7 +14,7 @@ import (
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/internal/lsp/source"
 	"golang.org/x/tools/internal/lsp/xlog"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 type View struct {

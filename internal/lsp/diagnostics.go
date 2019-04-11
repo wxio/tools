@@ -9,9 +9,9 @@ import (
 	"sort"
 
 	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/lsp/protocol"
 	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 func (s *Server) cacheAndDiagnose(ctx context.Context, uri span.URI, content string) error {

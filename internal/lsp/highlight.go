@@ -5,8 +5,8 @@
 package lsp
 
 import (
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/lsp/protocol"
+	"golang.org/x/tools/span"
 )
 
 func toProtocolHighlight(m *protocol.ColumnMapper, spans []span.Span) []protocol.DocumentHighlight {

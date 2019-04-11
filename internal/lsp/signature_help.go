@@ -5,7 +5,7 @@
 package lsp
 
 import (
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/lsp/protocol"
 	"golang.org/x/tools/internal/lsp/source"
 )
 

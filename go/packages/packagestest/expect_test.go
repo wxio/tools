@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/tools/go/expect"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 func TestExpect(t *testing.T) {

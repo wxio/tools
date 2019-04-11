@@ -7,7 +7,7 @@ package protocol
 import (
 	"context"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"golang.org/x/tools/jsonrpc2"
 	"golang.org/x/tools/internal/lsp/xlog"
 )
 

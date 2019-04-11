@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/tools/go/packages/packagestest"
 	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 	"golang.org/x/tools/internal/tool"
 )
 

@@ -33,7 +33,7 @@ import (
 	"golang.org/x/tools/go/analysis/passes/unsafeptr"
 	"golang.org/x/tools/go/analysis/passes/unusedresult"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 type Diagnostic struct {

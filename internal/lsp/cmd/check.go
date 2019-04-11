@@ -9,8 +9,8 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/lsp/protocol"
+	"golang.org/x/tools/span"
 )
 
 // check implements the check verb for gopls.

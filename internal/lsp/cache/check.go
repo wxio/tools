@@ -15,7 +15,7 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 func (v *View) parse(ctx context.Context, f *File) ([]packages.Error, error) {

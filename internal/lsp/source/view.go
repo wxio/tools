@@ -13,7 +13,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/internal/lsp/xlog"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // View abstracts the underlying architecture of the package using the source

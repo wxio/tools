@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 // File holds all the information we know about a file.

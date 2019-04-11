@@ -9,7 +9,7 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/span"
 )
 
 var testdata = []struct {
