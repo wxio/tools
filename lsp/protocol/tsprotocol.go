@@ -2900,6 +2900,8 @@ type DocumentSymbol struct {
 	 */
 	Range Range `json:"range"`
 
+	Location Location `json:"location"`
+
 	/** SelectionRange defined:
 	 * The range that should be selected and revealed when this symbol is being picked, e.g the name of a function.
 	 * Must be contained by the the `range`.
